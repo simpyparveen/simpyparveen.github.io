@@ -41,3 +41,27 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+/* Lists */
+ul, ol { 
+  margin: 1em 0; 
+  padding: 0 0 0 2em; 
+}
+
+ol li {
+  list-style-type: decimal; 
+  padding-bottom: 0.50em;
+}
+
+ul li {
+  list-style-type: disc; 
+  padding-bottom: 0.50em;
+}
+
+li p:last-child { 
+  margin:0 
+}
+
+dd { 
+  margin: 0 0 0 2em; 
+}
