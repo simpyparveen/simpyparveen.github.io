@@ -13,7 +13,7 @@ IP defines:
   1. How to address and route each packet to make sure it reaches the right destination. 
   2. Each gateway computer on the network checks this IP address to determine where to forward the message.
 
-In these experiements, I conduct several attacks on the TCP/IP protocols to demonstrate invaluable lesson as to why security should be designed in from the beginning, rather than being added as an afterthought. 
+In the following experiements, I conduct several attacks on the TCP/IP protocols to demonstrate invaluable lesson as to why security should be designed in from the beginning, rather than being added as an afterthought. 
 
   1. Syn Flood Attack 
   2. TCP RST Attack on Telnet
