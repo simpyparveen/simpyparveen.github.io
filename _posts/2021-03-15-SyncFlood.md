@@ -4,7 +4,7 @@ SYN flood is a form of DoS attack in which attackers send many SYN requests to a
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
      
-     ![](tcpsync.png)
+![tcpsync](tcpsync.png)
 
 ### Tools
 1. Pre-built Virtual Machine Images (Ubuntu)
