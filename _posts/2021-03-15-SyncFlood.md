@@ -3,6 +3,10 @@ SYN flood is a form of DoS attack in which attackers send many SYN requests to a
 
 ![tcpsync](https://simpyparveen.github.io/main/blob/_posts/tcpsync.png)
 
+![tcpsync](tcpsync.png)
+
+![tcpsync](https://simpyparveen.github.io/_posts/tcpsync.png)
+
 
 ### Tools
 1. Pre-built Virtual Machine Images (Ubuntu)
