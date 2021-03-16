@@ -1,10 +1,13 @@
 ## TCP Sync Flood Attack
 SYN flood is a form of DoS attack in which attackers send many SYN requests to a victim’s TCP port, but the attackers have no intention to finish the 3-way handshake procedure. Attackers either use spoofed IP address or do not continue the procedure. Through this attack, attackers can flood the victim’s queue that is used for half-opened connections, i.e. the connections that has finished SYN, SYN-ACK, but has not yet gotten a final ACK back. 
 
+# Testing images 0
 ![https://github.com/simpyparveen/simpyparveen.github.io/blob/main/_posts/tcpsync.png](tcpsync.png)
 
-# Testing images
+# Testing images 1
 ![Image](_posts/tcpsync.png)
+
+# Testing images 2
 <img src="./tcpsync.png" height=400>
 
 
