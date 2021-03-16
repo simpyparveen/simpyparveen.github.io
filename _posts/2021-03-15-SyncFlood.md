@@ -8,6 +8,8 @@ SYN flood is a form of DoS attack in which attackers send many SYN requests to a
 
 <img src="/_posts/tcpsync.png" height=400>
 
+# Testing images 2
+![tcpsync](/assets/tcpsync.png)
 
 
 ### Tools
