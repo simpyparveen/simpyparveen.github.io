@@ -4,8 +4,6 @@ SYN flood is a form of DoS attack in which attackers send many SYN requests to a
 ![tcpsync](https://github.com/simpyparveen/simpyparveen.github.io/blob/main/_posts/tcpsync.png)
 
 
-<img src="https://simpyparveen.github.io/blog/2021/03/15/SyncFlood/tcpsync.png" width="800" /> 
-
 ### Tools
 1. Pre-built Virtual Machine Images (Ubuntu)
 2. Netwox is installed under Linux, Windows, FreeBSD, OpenBSD and Solaris. It consists of a suite of tools, each having a specific number. You can also find more about the tool utility by using below commands :
