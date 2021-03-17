@@ -46,7 +46,11 @@ Performing similar attack to reset SSH connection results in broken pipe. So, if
 
 Observe that wireshark packet capture shows TCP RST packet with the RST flag set to 1.
 
-![reset](/assets/sshsuccessreset.png){:height="200px" width="500px"}
+![reset](/assets/sshsuccessreset.png)
+
+![test image size](/assets/sshsuccessreset.png){:class="img-responsive"}
+![test image size](/assets/sshsuccessreset.png){:height="50%" width="50%"}
+![test image size](/assets/sshsuccessreset.png){:height="700px" width="400px"}
 
 
 
