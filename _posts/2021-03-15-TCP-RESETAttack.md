@@ -71,6 +71,6 @@ Follow steps below:
 
 4. After sending reset packets, the video halts or goes to buffering state, as you can see it.
 
-![reset](/assets/networksecurity/videoresetattack.png){:height="50%" width="50%"}
+![reset](/assets/networksecurity/videoresetattack.png){:height="50%" width="51%"}
 
 
