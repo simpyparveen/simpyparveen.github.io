@@ -35,7 +35,7 @@ Preparing Spoofed RST Packet. The following fields need to be set correctly:
 
 Observe that wireshark packet capture shows TCP RST packet with the RST flag set to 1.
 
-![reset](/assets/telnetsuccessreset.png){:height="50%" width="50%"}
+![reset](/assets/telnet1.png){:height="50%" width="50%"}
 
 5. What happens when I try RESET attack on ssh connection ???
 
