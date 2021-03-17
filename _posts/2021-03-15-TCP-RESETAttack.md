@@ -42,7 +42,7 @@ Observe that wireshark packet capture shows TCP RST packet with the RST flag set
 ## On SSH
 Performing similar attack to reset SSH connection results in broken pipe. So, if we try to perform any terminal task, the SSH shows connection termination. 
 
-![reset](/assets/resetsshsuccess.png){:height="70%" width="70%"}
+![reset](/assets/resetsshsuccess.png){:height="50%" width="50%"}
 
 
 Observe that wireshark packet capture shows TCP RST packet with the RST flag set to 1.
