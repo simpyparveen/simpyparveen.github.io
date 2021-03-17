@@ -5,7 +5,7 @@ The TCP RST Attack can terminate an established TCP connection between two victi
 ## On Telnet
 In this task, I launch an TCP RST attack from C to break an existing telnet connection between A and B, as shown in below diagram:
 
-![reset](/assets/resettelnet.png)
+![reset](/assets/resettelnet.png){:height="50%" width="50%"}
 
 Follow steps to perform the attack:
 
@@ -25,32 +25,29 @@ Preparing Spoofed RST Packet. The following fields need to be set correctly:
  
  Before attack, observe wireshark packets: 
  
- ![reset](/assets/telnetbeforeattack.png)
+ ![reset](/assets/telnetbeforeattack.png){:height="50%" width="50%"}
  
 3. Use Netwox Tool 40 as below from the attacker’s machine. Use netwox --help to find the manual. Using netwox tool 40, we can generate a spoofed RST packet to the client or server as follows:
 
 4. If the attack is successfulll, the victim machine will shows “Connection termination” message on the terminal.
 
-![reset](/assets/telnetafterattack.png)
+![reset](/assets/telnetafterattack.png){:height="50%" width="50%"}
 
 Observe that wireshark packet capture shows TCP RST packet with the RST flag set to 1.
-![reset](/assets/telnetsuccessreset.png)
+![reset](/assets/telnetsuccessreset.png){:height="50%" width="50%"}
 
 5. What happens when I try RESET attack on ssh connection ??
 
 ## On SSH
 Performing similar attack to reset SSH connection results in broken pipe. So, if we try to perform any terminal task, the SSH shows connection termination. 
 
-![reset](/assets/resetsshsuccess.png)
+![reset](/assets/resetsshsuccess.png){:height="70%" width="70%"}
 
 
 Observe that wireshark packet capture shows TCP RST packet with the RST flag set to 1.
 
-![reset](/assets/sshsuccessreset.png)
+![reset](/assets/sshsuccessreset.png){:height="50%" width="50%"}
 
-![test image size](/assets/sshsuccessreset.png){:class="img-responsive"}
-![test image size](/assets/sshsuccessreset.png){:height="50%" width="50%"}
-![test image size](/assets/sshsuccessreset.png){:height="700px" width="400px"}
 
 
 
