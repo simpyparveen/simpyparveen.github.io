@@ -25,13 +25,13 @@ Preparing Spoofed RST Packet. The following fields need to be set correctly:
  
  Before attack, observe wireshark packets: 
  
- ![reset](/assets/telnetbeforeattack.png=100x20)
+ ![reset](/assets/telnetbeforeattack.png)
  
 3. Use Netwox Tool 40 as below from the attacker’s machine. Use netwox --help to find the manual. Using netwox tool 40, we can generate a spoofed RST packet to the client or server as follows:
 
 4. If the attack is successfulll, the victim machine will shows “Connection termination” message on the terminal.
 
-![reset](/assets/telnetafterattack.png=100x20)
+![reset](/assets/telnetafterattack.png)
 
 Observe that wireshark packet capture shows TCP RST packet with the RST flag set to 1.
 ![reset](/assets/telnetsuccessreset.png)
@@ -41,12 +41,14 @@ Observe that wireshark packet capture shows TCP RST packet with the RST flag set
 ## On SSH
 Performing similar attack to reset SSH connection results in broken pipe. So, if we try to perform any terminal task, the SSH shows connection termination. 
 
-![reset](/assets/resetsshsuccess.png=100x20)
+![reset](/assets/resetsshsuccess.png)
+<img src="Assets/icon.png" width="200">
+
 
 Observe that wireshark packet capture shows TCP RST packet with the RST flag set to 1.
 
-![reset](/assets/sshsuccessreset.png=100x20)
-
+![reset](/assets/sshsuccessreset.png)
+<img src="Assets/icon.png" width="200">
 
 
 
