@@ -5,7 +5,7 @@ The TCP RST Attack can terminate an established TCP connection between two victi
 ## On Telnet
 In this task, I launch an TCP RST attack from C to break an existing telnet connection between A and B, as shown in below diagram:
 
-![reset](/assets/resettelnet.png=100x20)
+![reset](/assets/resettelnet.png)
 
 Follow steps to perform the attack:
 
@@ -41,12 +41,12 @@ Observe that wireshark packet capture shows TCP RST packet with the RST flag set
 ## On SSH
 Performing similar attack to reset SSH connection results in broken pipe. So, if we try to perform any terminal task, the SSH shows connection termination. 
 
-![reset](/assets/resetsshsuccess.png){ width=50% }
+![reset](/assets/resetsshsuccess.png)
 
 
 Observe that wireshark packet capture shows TCP RST packet with the RST flag set to 1.
 
-![reset](/assets/sshsuccessreset.png){ width=50% }
+![reset](/assets/sshsuccessreset.png){:height="200px" width="500px"}
 
 
 
