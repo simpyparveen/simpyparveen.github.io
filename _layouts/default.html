@@ -36,8 +36,32 @@
       {% endif %}
     </header>
 
-    <main id="content" class="main-content" role="main">
+    
+      
+      <body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/about">About</a></li>
+	        		<li><a href="/cv">CV</a></li>
+	        		<li><a href="/blog">Blog</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			<main id="content" class="main-content" role="main">
       {{ content }}
+        
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:simpyparveen11@gmail.com">email</a></li>
+	        		<li><a href="https://github.com/simpyparveen">github.com/simpyparveen</a></li>
+				</ul>
+			</footer>
+		</body>
+      
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}
