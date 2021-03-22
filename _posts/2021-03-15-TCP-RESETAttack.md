@@ -25,29 +25,29 @@ Preparing Spoofed RST Packet. The following fields need to be set correctly:
  
  Before attack, observe wireshark packets: 
  
- ![reset](/assets/networksecurity/telnetbeforeattack.png){:height="50%" width="50%"}
+ ![reset](/assets/networksecurity/telnetbeforeattack.png){:height="75%" width="75%"}
  
 3. Use Netwox Tool 40 as below from the attacker’s machine. Use netwox --help to find the manual. Using netwox tool 40, we can generate a spoofed RST packet to the client or server as follows:
 
 4. If the attack is successfulll, the victim machine will shows “Connection termination” message on the terminal.
 
-![reset](/assets/networksecurity/telnetafterattack.png){:height="50%" width="50%"}
+![reset](/assets/networksecurity/telnetafterattack.png){:height="75%" width="75%"}
 
 Observe that wireshark packet capture shows TCP RST packet with the RST flag set to 1.
 
-![reset](/assets/networksecurity/telnet1.png){:height="50%" width="50%"}
+![reset](/assets/networksecurity/telnet1.png){:height="75%" width="75%"}
 
 5. What happens when I try RESET attack on ssh connection ???
 
 ## On SSH
 Performing similar attack to reset SSH connection results in broken pipe. So, if we try to perform any terminal task, the SSH shows connection termination. 
 
-![reset](/assets/networksecurity/resetsshsuccess.png){:height="50%" width="50%"}
+![reset](/assets/networksecurity/resetsshsuccess.png){:height="75%" width="75%"}
 
 
 Observe that wireshark packet capture shows TCP RST packet with the RST flag set to 1.
 
-![reset](/assets/networksecurity/sshsuccessreset.png){:height="50%" width="50%"}
+![reset](/assets/networksecurity/sshsuccessreset.png){:height="75%" width="75%"}
 
 
 ## On Video Streaming
@@ -71,6 +71,6 @@ Follow steps below:
 
 4. After sending reset packets, the video halts or goes to buffering state, as you can see it.
 
-![reset](/assets/networksecurity/videoresetattack.png){:height="50%" width="51%"}
+![reset](/assets/networksecurity/videoresetattack.png){:height="75%" width="75%"}
 
 
