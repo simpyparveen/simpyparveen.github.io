@@ -24,7 +24,7 @@ Before starting the task, go to the default policy file /etc/default/ufw. Find t
 2. Prevent Machine B from doing telnet to Machine A
   *$ sudo ufw deny in from Ip_of_B to Ip_of_A port 23*
   
-  ![firewall3](/assets/networksecurity/firewall3.png){:height="75%" width="75%"}
+  ![firewall1](/assets/networksecurity/firewall1.png){:height="75%" width="75%"}
   
 3. Prevent Machine A from visiting an external web site. You can choose any web site that you like to block, but keep in mind, some web servers have multiple IP addresses. 
 
