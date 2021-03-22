@@ -57,8 +57,3 @@ STRIDE may be too high-level approach, it is easier to use an existing library w
 Attack trees are alternative to STRIDE method. It provides logical and systematic approach to evaluate security of our system based on various attacks as if we are the RED Team. We formualte a tree structure where the root is the goal of the attacker, and leaf nodes describing ways to reach the parent node.
 
 
-  1. [Syn Flood Attack](https://simpyparveen.github.io/blog/2021/03/21/TCPSessionHijack)
-  2. [TCP RST Attack](https://simpyparveen.github.io/blog/2021/03/15/TCP-RESETAttack)
-  3. [TCP Session Hijack](https://simpyparveen.github.io/blog/2021/03/21/TCPSessionHijack)
-  4. [Linux Firewall Exploration](https://simpyparveen.github.io/blog/2021/03/22/Linux-Firewalls)
-  5. [Heartbleed Attack Lab] ()
