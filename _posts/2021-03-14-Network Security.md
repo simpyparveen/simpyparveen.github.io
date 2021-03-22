@@ -1,3 +1,8 @@
+layout: post
+title: "Network Security"
+date: YYYY-MM-DD hh:mm:ss -0000
+categories: CATEGORY-1 CATEGORY-2
+
 ## Network Security
 
 The vulnerabilities in the TCP/IP protocols represent a special genre of vulnerabilities in protocol designs and implementations. 
