@@ -17,8 +17,8 @@ IP defines:
 
 In the following experiements, I conduct several attacks on the TCP/IP protocols to demonstrate invaluable lesson as to why security should be designed in from the beginning, rather than being added as an afterthought. 
 
-  1. [Syn Flood Attack](https://simpyparveen.github.io/blog/2021/03/21/TCPSessionHijack)
+  1. [Syn Flood Attack](https://simpyparveen.github.io/blog/2021/03/SyncFlood)
   2. [TCP RST Attack](https://simpyparveen.github.io/blog/2021/03/15/TCP-RESETAttack)
-  3. [TCP Session Hijack](https://simpyparveen.github.io/blog/2021/03/21/TCPSessionHijack)
+  3. [TCP Session Hijack](https://simpyparveen.github.io/blog/2021/03/21/TCP-RESETAttack)
   4. [Linux Firewall Exploration](https://simpyparveen.github.io/blog/2021/03/22/Linux-Firewalls)
   5. [Heartbleed Attack Lab] ()
