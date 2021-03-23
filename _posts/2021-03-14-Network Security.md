@@ -1,9 +1,3 @@
----
-layout: category
-category-name: Network Security
-permalink: "/category/NetSec"
----
-
 ## Network Security
 
 The vulnerabilities in the TCP/IP protocols represent a special genre of vulnerabilities in protocol designs and implementations. 
