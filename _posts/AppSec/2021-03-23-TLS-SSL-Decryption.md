@@ -52,6 +52,9 @@ TLS is normally implemented on top of TCP in order to encrypt Application Layer 
 ![ws-tls6](/assets/applicationsecurity/ws-tls6.png){:height="75%" width="75%"}
 
 
+### Can Wireshark capture https request? How to Decrypt SSL and TLS Traffic Using Wireshark ?
+
+Wireshark captures all traffic on a network interface. The thing with HTTPS is that it is application layer encryption. Wireshark is not able to decrypt the content of HTTPS. This is because HTTPS encrypts point to point between applications.
 
 #### Attack Goal: This article describes how to decrypt SSL and TLS traffic using the Wireshark network protocol analyzer. 
 
@@ -90,4 +93,8 @@ vii. This is what it looks like when you switch to the “Decrypted SSL Data” 
 ![ssldecrypt6](/assets/applicationsecurity/ssldecrypt6.png){:height="75%" width="75%"}
 
 
+#### Conclusion 
+The idea here is that HTTPS traffic that travels over the Internet is confidential, a random router or person who happens to capture your packages cannot decrypt the HTTPS without the decryption key.
+
+*So bottomline: Wireshark cannot decrypt HTTPS traffic without the decryption key.*
 
