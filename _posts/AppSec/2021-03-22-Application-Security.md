@@ -41,11 +41,17 @@ v. Develop and test in realistic environment.
 This is really cool stuff by Microsoft!! I taught several in-class interactive excercises to tutor STRIDE method of threat modelling
 
 The STRIDE threat model is focused on the potential impacts of different threats to a system:
+
 i. Spoofing: Violates security property *Authentication*
+
 ii. Tampering: Violates security property *Integrity*
+
 iii. Repudiation: Violates security property *nNon-repudiation*
+
 iv. Information disclosure: Violates security property *Confidentiality*
+
 v. Denial of service: Violates security property *Availability*
+
 vi. Escalation of privileges: Violates security property *Authorization*
 
 #### When, during the SDLC, do we perform threat modelling??
