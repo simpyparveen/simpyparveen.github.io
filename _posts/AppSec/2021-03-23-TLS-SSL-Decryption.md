@@ -23,18 +23,20 @@ TLS is normally implemented on top of TCP in order to encrypt Application Layer 
 
 ### TLS/SSL Handshake Explanation Using Wireshark
 
-1.	Start Wireshark on your machine.
-2.	Browse a website such as cibc.com.
-3.	Stop Wireshark Capture and look at the packets after filtering ssl traffic, as shown below: 
+1. Start Wireshark on your machine.
+2. Browse a website such as cibc.com.
+3. Stop Wireshark Capture and look at the packets after filtering ssl traffic, as shown below: 
 
 ![ws-tls1](/assets/applicationsecurity/ws-tls1.png){:height="75%" width="75%"}
 
-4.  We can choose to see the ssl stream: Click on one packet and right click to Follow-> SSL Stream. This might not show any useful data but will put a filter. We also add “&& ssl” to the filter expression.
+4. We can choose to see the ssl stream: Click on one packet and right click to Follow-> SSL Stream. This might not show any useful data but will put a filter. We also add “&& ssl” to the filter expression.
+
 ![ws-tls2](/assets/applicationsecurity/ws-tls2.png){:height="75%" width="75%"}
 
-5.	In the above screenshot we see packets containing: Client Hello, Server Hello, Certificate, etc. 
+5. In the above screenshot we see packets containing: Client Hello, Server Hello, Certificate, etc. 
 
 6. Click on Client Hello and see the content:
+
 ![ws-tls3](/assets/applicationsecurity/ws-tls3.png){:height="75%" width="75%"}
 
 7. There are 14 Cipher suite supported by the default browser from which server negotiates and chooses one of them:
@@ -65,26 +67,26 @@ Tools Needed:
 
 Complete the following steps to decrypt SSL and TLS traffic using the Wireshark network protocol analyzer:
 
-1.	Go to [link](https://wiki.wireshark.org/SampleCaptures?action=AttachFile&do=get&target=snakeoil2_070531.tgz) given in the references and search for description “SSL with decryption keys”. Download the file: snakeoil2_070531.tgz
+i.	Go to [link](https://wiki.wireshark.org/SampleCaptures?action=AttachFile&do=get&target=snakeoil2_070531.tgz) given in the references and search for description “SSL with decryption keys”. Download the file: snakeoil2_070531.tgz
 
-2.	Unzip the file and you see an example of SSL encrypted HTTPS traffic and the key to decrypt it.
+ii.	Unzip the file and you see an example of SSL encrypted HTTPS traffic and the key to decrypt it.
 
-3.	Setting up Wireshark to use the decryption keys : *Wireshark -> Edit -> Preferences... -> Protocol -> SSL*
+iii.	Setting up Wireshark to use the decryption keys : *Wireshark -> Edit -> Preferences... -> Protocol -> SSL*
  ![ssldecrypt1](/assets/applicationsecurity/ssldecrypt1.png){:height="75%" width="75%"}
  
 ![ssldecrypt2](/assets/applicationsecurity/ssldecrypt2.png){:height="75%" width="75%"}
 
-4. 	RSA keys list must be selected from the keys downloaded above :
+iv. 	RSA keys list must be selected from the keys downloaded above :
 ![ssldecrypt3](/assets/applicationsecurity/ssldecrypt3.png){:height="75%" width="75%"}
 
-5. Browse to the location of your log file(decrypt already captured file given in the example downloaded above).
+v. Browse to the location of your log file(decrypt already captured file given in the example downloaded above).
 ![ssldecrypt4](/assets/applicationsecurity/ssldecrypt4.png){:height="75%" width="75%"}
 
-6. This is more along the lines of what we normally see when look at a TLS packet :
+vi. This is more along the lines of what we normally see when look at a TLS packet :
 ![ssldecrypt5](/assets/applicationsecurity/ssldecrypt5.png){:height="75%" width="75%"}
 
 
-7. This is what it looks like when you switch to the “Decrypted SSL Data” tab.  Note that we can now see the request information in plain-text. 
+vii. This is what it looks like when you switch to the “Decrypted SSL Data” tab.  Note that we can now see the request information in plain-text. 
 ![ssldecrypt6](/assets/applicationsecurity/ssldecrypt6.png){:height="75%" width="75%"}
 
 
