@@ -73,22 +73,26 @@ h5 {
     font-size: 18px;
 }
 
-.shadow{
-    -webkit-box-shadow:0 5px 15px #000;
-    -moz-box-shadow:0 5px 15px #000;
-    box-shadow:0 5px 15px #000;     
+
+ <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+li {
+  float: left;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
 }
+</style>	  
+	  
 
 
 /* added */
@@ -124,4 +128,4 @@ li p:last-child {
 
 dd { 
   margin: 0 0 0 2em; 
-} */
+} 
