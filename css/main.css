@@ -88,12 +88,16 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
-.left {
-  /*background-color:#2196F3;*/
-  padding:20px;
-  float:left;
-  width:20%; /* The width is 20%, by default */
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
 
 /* body {
     margin: 60px auto;
