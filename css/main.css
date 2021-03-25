@@ -88,6 +88,12 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
+.left {
+  /*background-color:#2196F3;*/
+  padding:20px;
+  float:left;
+  width:20%; /* The width is 20%, by default */
+}
 
 /* body {
     margin: 60px auto;
